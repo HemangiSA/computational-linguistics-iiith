@@ -1,3 +1,5 @@
+//Random Function
+
 function getRandomSentence () {
     var index= Math.floor(Math.random() * (sentences.length));
 	//document.write(sentences[index]);

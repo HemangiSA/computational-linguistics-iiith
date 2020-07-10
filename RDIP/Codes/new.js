@@ -1,3 +1,5 @@
+//Random Function
+
 function getRandomSentence () {
     var index= Math.floor(Math.random() * (sentences.length));
 	//document.write(sentences[index]);
@@ -54,9 +56,6 @@ function six()
 
 
 
-document.getElementById('select1').onchange = function() {
-    window.location.href = this.children[this.selectedIndex].getAttribute('href');
-}
 
 
 
