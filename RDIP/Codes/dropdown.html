@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF8">
+<title>Dropdown Menu</title>
+<link rel="stylesheet" href="dropdown.css">
+<script src="new.js"></script>
+</head>
+<body>
+<div class="container">
+	<select name="form" onchange="location=this.value" id="select1">
+		<option value="null">---------------------<b>Select Language</b>-------------------</option>
+		<option value="dropdown.html">English</option>
+		<option value="hindi1.html">Hindi</option>
+	</select>
+	<div id="design">
+	<h4>Form a sentence (Declarative or Interrogative or any other type) from the given words</h4>
+	<h5><i>(select the buttons in proper order)</i></h5> 
+	</div>
+	<br>
+	<br>
+	<button id="one" value="ate" onclick="one()">ate</button>
+	<button id="two" value="John" onclick="two()">John</button>
+	<button id="three" value="an" onclick="three()">an</button>
+	<button id="four" value="before" onclick="four()">before</button>
+	<button id="five" value="apple" onclick="five()">apple</button>
+	<button id="six" value="afternoon" onclick="six()">afternoon</button>
+	<br>
+	<h2>Formed Sentence <i>(after selecting words)</i>:</h2>
+	<div id="div1">
+	</div>
+	<br>
+	<br>
+	<!--<button type="submit" onclick="getRandomSentence()">Random Sentence</button>-->
+	<br>
+	<br>
+	<hr>
+	<br>
+	<a href="two.html"><button type="submit">Next</button></a>
+</div>
+
+</body>
+</html>
