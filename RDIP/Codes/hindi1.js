@@ -1,4 +1,4 @@
-//Random Function
+//Random Function for hindi
 
 function getRandomSentence () {
     var index= Math.floor(Math.random() * (sentences.length));

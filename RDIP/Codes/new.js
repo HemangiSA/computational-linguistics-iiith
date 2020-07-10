@@ -1,4 +1,4 @@
-//Random Function
+//Random Function for english
 
 function getRandomSentence () {
     var index= Math.floor(Math.random() * (sentences.length));
