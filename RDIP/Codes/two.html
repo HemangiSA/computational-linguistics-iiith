@@ -6,11 +6,11 @@
 <script src="two.js"></script>
 </head>
 <body>
-<div class="container">
-	<select data-placeholder="Select Language" id="select1">
+	<div class="container">
+	<select name="form" onchange="location=this.value" id="select1">
 		<option value="null">---------------------<b>Select Language</b>-------------------</option>
-		<option value="EN">English</option>
-		<option value="HN">Hindi</option>
+		<option value="dropdown.html">English</option>
+		<option value="hindi1.html">Hindi</option>
 	</select>
 	<div id="design">
 	<h4>Form a sentence (Declarative or Interrogative or any other type) from the given words</h4>
@@ -27,6 +27,7 @@
 	<button id="seven" value="students" onclick="seven()">students</button>
 	<button id="eight" value="some" onclick="eight()">some</button>
 	<br>
+	<h2>Formed Sentence <i>(after selecting words)</i>:</h2>
 	<div id="div1">
 	</div>
 	<br>

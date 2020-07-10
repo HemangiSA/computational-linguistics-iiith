@@ -7,10 +7,10 @@
 </head>
 <body>
 <div class="container">
-	<select data-placeholder="Select Language" id="select1">
+	<select name="form" onchange="location=this.value" id="select1">
 		<option value="null">---------------------<b>Select Language</b>-------------------</option>
-		<option value="EN">English</option>
-		<option value="HN">Hindi</option>
+		<option value="dropdown.html">English</option>
+		<option value="hindi1.html">Hindi</option>
 	</select>
 	<div id="design">
 	<h4>Form a sentence (Declarative or Interrogative or any other type) from the given words</h4>
@@ -28,6 +28,7 @@
 	<button id="eight" value="told" onclick="eight()">told</button>
 	<button id="nine" value="I" onclick="nine()">I</button>
 	<br>
+	<h2>Formed Sentence <i>(after selecting words)</i>:</h2>
 	<div id="div1">
 	</div>
 	<br>
