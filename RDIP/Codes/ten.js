@@ -4,6 +4,7 @@ function one()
 		var x=document.getElementById("one").value;
 		document.getElementById("div1").innerHTML+=' '+x;
 			document.getElementById("one").style.visibility='hidden';
+			//reform();
 }
 function two()
 {
@@ -66,16 +67,50 @@ function ten()
 
 //Reform Button
 
-
-
-
-
-
-
-
-
-
-
+function reform() 
+{
+	document.getElementById("div1").innerHTML = "";
+  var x = document.getElementById("one");
+  if (window.getComputedStyle(x).visibility === "hidden") {
+    x.style.visibility = "visible";
+  }
+  var y = document.getElementById("two");
+  if (window.getComputedStyle(y).visibility === "hidden") {
+    y.style.visibility = "visible";
+  }
+  var z = document.getElementById("three");
+  if (window.getComputedStyle(z).visibility === "hidden") {
+    z.style.visibility = "visible";
+  }
+  var a = document.getElementById("four");
+  if (window.getComputedStyle(a).visibility === "hidden") {
+    a.style.visibility = "visible";
+  }
+  var b = document.getElementById("five");
+  if (window.getComputedStyle(b).visibility === "hidden") {
+    b.style.visibility = "visible";
+  }
+  var c = document.getElementById("six");
+  if (window.getComputedStyle(c).visibility === "hidden") {
+    c.style.visibility = "visible";
+  }
+  var d = document.getElementById("seven");
+  if (window.getComputedStyle(d).visibility === "hidden") {
+    d.style.visibility = "visible";
+  }
+  var e = document.getElementById("eight");
+  if (window.getComputedStyle(e).visibility === "hidden") {
+    e.style.visibility = "visible";
+  }
+  var f = document.getElementById("nine");
+  if (window.getComputedStyle(f).visibility === "hidden") {
+    f.style.visibility = "visible";
+  }
+  var g = document.getElementById("ten");
+  if (window.getComputedStyle(g).visibility === "hidden") {
+    g.style.visibility = "visible";
+  }
+}
 
 
 

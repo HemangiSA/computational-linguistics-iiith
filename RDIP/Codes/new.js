@@ -19,7 +19,35 @@ var sentences= [
     'the teacher returned the book after she noticed the error',
     'I told her that I bought a book yesterday'
 ];
-
+function reform() 
+{
+	document.getElementById("div1").innerHTML = "";
+  var x = document.getElementById("one");
+  if (window.getComputedStyle(x).visibility === "hidden") {
+    x.style.visibility = "visible";
+  }
+  var y = document.getElementById("two");
+  if (window.getComputedStyle(y).visibility === "hidden") {
+    y.style.visibility = "visible";
+  }
+  var z = document.getElementById("three");
+  if (window.getComputedStyle(z).visibility === "hidden") {
+    z.style.visibility = "visible";
+  }
+  var a = document.getElementById("four");
+  if (window.getComputedStyle(a).visibility === "hidden") {
+    a.style.visibility = "visible";
+  }
+  var b = document.getElementById("five");
+  if (window.getComputedStyle(b).visibility === "hidden") {
+    b.style.visibility = "visible";
+  }
+  var c = document.getElementById("six");
+  if (window.getComputedStyle(c).visibility === "hidden") {
+    c.style.visibility = "visible";
+  }
+  
+}
 
 function one()
 {
