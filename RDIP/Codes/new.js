@@ -25,32 +25,37 @@ function one()
 {
 		var x=document.getElementById("one").value;
 		document.getElementById("div1").innerHTML+=' '+x;
+		document.getElementById("one").style.visibility='hidden';
 }
 function two()
 {
 		var y=document.getElementById("two").value;
 		document.getElementById("div1").innerHTML+=' '+y;
-		x.append(y);
+		document.getElementById("two").style.visibility='hidden';
 }
 function three()
 {
 		var z=document.getElementById("three").value;
 		document.getElementById("div1").innerHTML+=' '+z;
+		document.getElementById("three").style.visibility='hidden';
 }
 function four()
 {
 		var a=document.getElementById("four").value;
 		document.getElementById("div1").innerHTML+=' '+a;
+		document.getElementById("four").style.visibility='hidden';
 }
 function five()
 {
 		var b=document.getElementById("five").value;
 		document.getElementById("div1").innerHTML+=' '+b;
+		document.getElementById("five").style.visibility='hidden';
 }
 function six()
 {
 		var c=document.getElementById("six").value;
 		document.getElementById("div1").innerHTML+=' '+c;
+		document.getElementById("six").style.visibility='hidden';
 }
 
 
