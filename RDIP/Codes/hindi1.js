@@ -137,7 +137,7 @@ function reform()
 
 
 
-//Check answer correct or not
+//Check answer correct or not functionalities
 
 function check()
 {

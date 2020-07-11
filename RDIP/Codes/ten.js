@@ -112,7 +112,7 @@ function reform()
   }
 }
 
-//Check correctness of the sentence
+//Check correctness of the sentence functionalities
 
 function check()
 {
