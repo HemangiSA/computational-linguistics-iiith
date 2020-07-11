@@ -87,8 +87,25 @@ function six()
 }
 
 
+//Check correctness of the sentence
 
-
+function check()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("John ate an apple before afternoon") || text1.includes("before afternoon John ate an apple") || text1.includes("John before afternoon ate an apple"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
 
 
 

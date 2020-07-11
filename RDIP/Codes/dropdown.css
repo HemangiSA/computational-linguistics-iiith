@@ -7,6 +7,12 @@
 	margin-left:250px;
 	padding:40px;
 }
+#check1
+{
+	width:400px;
+	margin-left:200px;
+	height:30px;
+}
 #select1
 {
 	width:300px;
@@ -14,6 +20,13 @@
 	margin-left:230px;
 	margin-top:10px;
 	text-align:center;
+}
+p
+{
+	background-color:white;
+	width:400px;
+	height:30px;
+	margin-left:170px;
 }
 h2
 {
@@ -25,8 +38,6 @@ h2
 	width:400px;
 	height:20px;
 	background-color:white;
-	padding:10px;
-	margin:30px;
 	margin-left:170px;
 }
 button[type="submit"]

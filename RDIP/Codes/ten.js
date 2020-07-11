@@ -112,7 +112,169 @@ function reform()
   }
 }
 
+//Check correctness of the sentence
 
+function check()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("some students like to study in the night") || text1.includes("at night some students like to study"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
+
+function check1()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("John and Mary went to church") || text1.includes("Mary and John went to church"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
+
+function check2()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("John went to church after eating") || text1.includes("after eating John went to church") || text1.includes("John after eating went to church"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
+
+function check3()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("did he go to market") || text1.includes("he did go to market"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
+
+function check4()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("the woman who called my sister sells cosmetics") || text1.includes("the woman who sells cosmetics called my sister") || text1.includes("my sister who sells cosmetics called the woman") || text1.includes("my sister who called the woman sells cosmetics"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
+
+function check5()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("John goes to the library and studies") || text1.includes("John studies and goes to the library"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
+
+function check6()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("John ate an apple so did she") || text1.includes("she ate an apple so did John"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
+
+function check7()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("the teacher noticed the error after she returned the book") || text1.includes("after the teacher returned the book she noticed the error") || text1.includes("after the teacher noticed the error she returned the book") || text1.includes("she returned the book after the teacher noticed the error") || text1.includes("she noticed the error after the teacher returned the book") || text1.includes("after she returned the book the teacher noticed the error") || text1.includes("after she noticed the error the teacher returned the book"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
+
+function check8()
+{
+	var text1=document.getElementById("div1").innerHTML;
+	
+   if(text1.includes("I told her yesterday that I bought a book") || text1.includes("yesterday I told her that I bought a book") || text1.includes("I bought a book that I told her yesterday") || text1.includes("I bought a book yesterday that I told her") || text1.includes("yesterday I bought a book that I told her"))
+   {
+	   var str1="Right Answer";
+	   var res=str1.fontcolor('green');
+	   document.getElementById("p1").innerHTML=res;
+   }
+   else
+   {
+	   var str2="Wrong Answer";
+	   var res2=str2.fontcolor('red');
+	   document.getElementById("p1").innerHTML=res2;
+   }
+}
 
 
 
