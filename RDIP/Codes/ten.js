@@ -1,4 +1,4 @@
-//hidden button after clicked
+//hidden button after clicked adding some extra functionalities
 function one()
 {
 		var x=document.getElementById("one").value;

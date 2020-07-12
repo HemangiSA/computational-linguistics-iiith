@@ -1,4 +1,4 @@
-//Random Function for english
+//Random Function for english adding some extra functionalities
 
 function getRandomSentence () {
     var index= Math.floor(Math.random() * (sentences.length));
@@ -19,6 +19,9 @@ var sentences= [
     'the teacher returned the book after she noticed the error',
     'I told her that I bought a book yesterday'
 ];
+
+
+//Reform
 function reform() 
 {
 	document.getElementById("div1").innerHTML = "";
