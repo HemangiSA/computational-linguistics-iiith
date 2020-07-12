@@ -1,14 +1,46 @@
+/*CSS file to design web page*/
+
+body
+{
+	background-color:#ddf1d8;
+}
 h1
 {
 	margin-top:5px;
+}
+li
+{
+	margin-left:230px;
+	font-size:16px;
+}
+.sidenav
+{
+	position:fixed;
+	height:100%;
+	width:200px;
+	background-color:#75345f;
+	padding-top:30px;
+	overflow-x:hidden;
+}
+.sidenav a
+{
+	color:white;
+	display:block;
+	text-decoration:none;
+	padding:16px 30px 4px 16px;
+	font-size:21px;
+}
+.sidenav a:hover
+{
+	color:#f24ec5;
 }
 .container
 {
 	width:800px;
 	height:1050px;
 	margin:5px;
-	background-color:#a96a82;
-	margin-left:290px;
+	background-color:gray;
+	margin-left:350px;
 	padding:10px;
 }
 #check1
@@ -30,6 +62,7 @@ h1
 	width:500px;
 	height:300px;
 	padding:20px;
+	margin-left:250px;
 }
 p
 {
