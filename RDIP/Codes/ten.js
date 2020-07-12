@@ -277,6 +277,132 @@ function check8()
 }
 
 
+//Functionaliy of get correct answer button
+
+function get2()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="some students like to study in the night <br> at night some students like to study";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get3()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="John and Mary went to church <br> Mary and John went to church";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get4()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="John went to church after eating <br> after eating John went to church <br> John after eating went to church";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get5()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="did he go to market <br> he did go to market";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get6()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="the woman who called my sister sells cosmetics <br> the woman who sells cosmetics called my sister <br> my sister who sells cosmetics called the woman <br> my sister who called the woman sells cosmetics";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get7()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="John goes to the library and studies <br> John studies and goes to the library";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get8()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="John ate an apple so did she <br> she ate an apple so did John";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get9()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="the teacher returned the book after she noticed the error <br> the teacher noticed the error after she returned the book <br> after the teacher returned the book she noticed the error <br> after the teacher noticed the error she returned the book <br> she returned the book after the teacher noticed the error <br> she noticed the error after the teacher returned the book <br> after she returned the book the teacher noticed the error <br> after she noticed the error the teacher returned the book";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get10()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="I told her that I bought a book yesterday <br> I told her yesterday that I bought a book <br> yesterday I told her that I bought a book <br> I bought a book that I told her yesterday <br> I bought a book yesterday that I told her <br> yesterday I bought a book that I told her";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+
+
+
+
+
+
+
 
 
 

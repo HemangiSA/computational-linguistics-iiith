@@ -108,5 +108,18 @@ function check()
 }
 
 
+//Functionaliy of get correct answer button
 
+function get1()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="John ate an apple before afternoon <br> before afternoon John ate an apple <br> John before afternoon ate an apple";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
 

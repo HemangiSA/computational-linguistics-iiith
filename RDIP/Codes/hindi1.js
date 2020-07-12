@@ -270,26 +270,98 @@ function check6()
 }
 
 
+//Functionaliy of get correct answer button
+
+function get1()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="राम और श्याम बाजार गयें <br> राम और श्याम गयें बाजार <br> बाजार गयें राम और श्याम <br> गयें बाजार राम और श्याम";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get2()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="राम सोया और श्याम भी <br> श्याम सोया और राम भी <br> सोया श्याम और राम भी <br> सोया राम और श्याम भी";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get3()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="मैंने उसे बताया कि राम सो रहा है <br> मैंने उसे बताया कि सो रहा है राम <br> उसे मैंने बताया कि राम सो रहा है <br> उसे मैंने बताया कि सो रहा है राम  <br> मैंने बताया उसे कि राम सो रहा है <br> मैंने बताया उसे कि सो रहा है राम <br>  उसे बताया मैंने कि राम सो रहा है  <br>  उसे बताया मैंने कि सो रहा है राम  <br>  बताया मैंने उसे कि राम सो रहा है   <br> बताया मैंने उसे कि सो रहा है राम  <br> बताया उसे मैंने कि राम सो रहा है <br>  बताया उसे मैंने कि सो रहा है राम ";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get4()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="राम खाकर सोया <br> खाकर राम सोया <br> राम सोया खाकर <br> खाकर सोया राम   <br> सोया खाकर राम <br> सोया राम खाकर";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+
+function get5()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="बिल्लियों को मारकर कुत्ता सो गया <br>मारकर बिल्लियों को कुत्ता सो गया<br>बिल्लियों को मारकर सो गया कुत्ता <br> मारकर बिल्लियों को सो गया कुत्ता <br> कुत्ता सो गया बिल्लियों को मारकर <br> कुत्ता सो गया मारकर बिल्लियों को<br>  सो गया कुत्ता बिल्लियों को मारकर  <br> सो गया कुत्ता मारकर बिल्लियों को";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function get6()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="एक लाल किताब वहाँ है <br> एक लाल किताब है वहाँ<br> वहाँ है एक लाल किताब<br> है वहाँ एक लाल किताब";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
+function get7()
+{
+		var x=document.getElementById("p2");
+		if(x.innerHTML==="")
+		{
+			x.innerHTML="एक बड़ी सी किताब है वहाँ <br>बड़ी सी एक किताब वहाँ है<br>बड़ी सी एक किताब है वहाँ<br>वहाँ है एक बड़ी सी किताब<br>वहाँ है बड़ी सी एक किताब<br>है वहाँ एक बड़ी सी किताब<br>है वहाँ बड़ी सी एक किताब";
+		}
+		else
+		{
+			x.innerHTML="";
+		}
+}
 
 
 
