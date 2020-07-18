@@ -1,3 +1,4 @@
+//function corpus2
 function corpus2()
 {
  var one = document.getElementById("text1");
