@@ -1,7 +1,7 @@
 .container
 {
 	width:700px;
-	height:680px;
+	height:750px;
 	padding:30px;
 	margin:30px;
 	background-color:#99c7b8;
@@ -14,9 +14,16 @@
 	margin-left:220px;
 	height:30px;
 }
+#p1
+{
+	background-color:white;
+	width:200px;
+	height:40px;
+	margin-left:250px;
+}
 table
 {
-	margin-left:230px;
+	margin-left:200px;
 }
 #id1
 {

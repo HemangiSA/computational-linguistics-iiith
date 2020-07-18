@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Corpus 3</title>
-<script defer src="Include.js"></script>
+<script defer src="Corpus3.js"></script>
 
 	<script src="../Libraries/require.js"></script>
 
@@ -34,19 +34,24 @@
 			<table border="2px">
 				<tr>
 					<td>#tokens</td>
-					<td style="background-color:white; width:90px"></td>
+					<td style="background-color:white"><input type="text" id="text1"></td>
 				<tr>
 				<tr>
 					<td>#types</td>
-					<td style="background-color:white"></td>
+					<td style="background-color:white"><input type="text" id="text2"></td>
 				</tr>
 			</table>
 			<br>
 			<br>
 			<br>
-			<button type="submit">Submit</button>
+			<button type="submit" onclick="corpus3()">Submit</button>
+			<br>
+			<br>
+			<p id="p1">
+			</p>
+			<button type="submit" onclick="change1()" id="btn" name="btn1">Continue</button>
+		</div>
 		
-	</div>
 
 </body>
 </html>
