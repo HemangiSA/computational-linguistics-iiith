@@ -4,7 +4,7 @@ function corpus1()
 {
  var one = document.getElementById("text1");
  var two = document.getElementById("text2");
- if(one.value==="173" && two.value==="82")
+ if(one.value==="169" && two.value==="80")
  {
 	one.style.backgroundColor="green";
 	 two.style.backgroundColor="green";
@@ -34,4 +34,27 @@ function corpus1()
 	  document.getElementById("btn").style.display='block';
 	}
 
+//Add functionality of continue button
+
+function new1()
+{
+	var one = document.getElementById("text3");
+ if(one.value==="82")
+ {
+	one.style.backgroundColor="green";
+	   var str = "<b>Right Answer!</b>";
+       var result = str.fontcolor("green");
+       document.getElementById("p1").innerHTML = result;
+	  // change1();
+ }
+ else
+ {
+	 one.style.backgroundColor="red";
+		 var str = "<br>Wrong Answer!</b>";
+		 var result = str.fontcolor("red");
+		 document.getElementById("p1").innerHTML = result;
+	
+	 
+ }
+ }
 
