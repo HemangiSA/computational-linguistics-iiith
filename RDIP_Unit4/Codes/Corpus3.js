@@ -55,3 +55,18 @@ function new3()
 	 
  }
  }
+
+
+//Algorithm for stemming algorithm
+
+      var Stem = function(lng) {
+        var testStemmer = new Snowball(lng);
+        return function(word) {
+          testStemmer.setCurrent(word);
+          testStemmer.stem();
+          return testStemmer.getCurrent();
+        }
+      };
+      function println(lng, word){
+        document.getElementById("result").innerHTML = "<b>" + new Stem(lng)(word) + "</b>";
+      }
