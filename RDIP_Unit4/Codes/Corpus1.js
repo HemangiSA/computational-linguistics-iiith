@@ -34,12 +34,12 @@ function corpus1()
 	  document.getElementById("btn").style.display='block';
 	}
 
-//Add functionality of continue button
+//Add functionality of continue button and Reduced Word Algorithm
 
 function new1()
 {
 	var one = document.getElementById("text3");
- if(one.value==="82")
+ if(one.value==="74")
  {
 	one.style.backgroundColor="green";
 	   var str = "<b>Right Answer!</b>";

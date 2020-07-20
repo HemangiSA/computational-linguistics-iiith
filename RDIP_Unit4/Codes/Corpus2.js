@@ -33,12 +33,12 @@ window.onload=function()
 	}
 
 
-//Add functionality of continue button
+//Add functionality of continue button and reduced word 
 
 function new2()
 {
 	var one = document.getElementById("text3");
- if(one.value==="66")
+ if(one.value==="64")
  {
 	one.style.backgroundColor="green";
 	   var str = "<b>Right Answer!</b>";

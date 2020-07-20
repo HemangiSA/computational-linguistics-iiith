@@ -32,12 +32,12 @@ function corpus3()
 	  document.getElementById("btn").style.display='block';
 	}
 
-//Add functionality of continue button
+//Add functionality of continue button and reduced words
 
 function new3()
 {
 	var one = document.getElementById("text3");
- if(one.value==="99")
+ if(one.value==="98")
  {
 	one.style.backgroundColor="green";
 	   var str = "<b>Right Answer!</b>";
