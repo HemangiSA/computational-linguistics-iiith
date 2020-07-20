@@ -34,7 +34,7 @@ function corpus1()
 	  document.getElementById("btn").style.display='block';
 	}
 
-//Stemming words functions after algorithm
+//Stemming words functions after algorithm and display correct and wrong answer
 
 function new1()
 {
@@ -44,15 +44,15 @@ function new1()
 	one.style.backgroundColor="green";
 	   var str = "<b>Right Answer!</b>";
        var result = str.fontcolor("green");
-    //   document.getElementById("p1").innerHTML = result;
-	  // change1();
+		document.getElementById("p1").innerHTML = result;
+	
  }
  else
  {
 	 one.style.backgroundColor="red";
 		 var str = "<br>Wrong Answer!</b>";
 		 var result = str.fontcolor("red");
-		// document.getElementById("p1").innerHTML = result;
+		document.getElementById("p1").innerHTML = result;
 	
 	 
  }

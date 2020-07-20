@@ -33,7 +33,7 @@ window.onload=function()
 	}
 
 
-//Stemming words functions after algorithm
+//Stemming words functions after algorithm and display correct and wrong answer
 
 function new2()
 {
@@ -43,7 +43,7 @@ function new2()
 	one.style.backgroundColor="green";
 	   var str = "<b>Right Answer!</b>";
        var result = str.fontcolor("green");
-       //document.getElementById("p1").innerHTML = result;
+       document.getElementById("p1").innerHTML = result;
 	  // change1();
  }
  else
@@ -51,7 +51,7 @@ function new2()
 	 one.style.backgroundColor="red";
 		 var str = "<br>Wrong Answer!</b>";
 		 var result = str.fontcolor("red");
-		 //document.getElementById("p1").innerHTML = result;
+		 document.getElementById("p1").innerHTML = result;
 	
 	 
  }
