@@ -7,15 +7,11 @@ var corpus=
 
 //Snowball Stemmer
 
-var Snowball = require(['Snowball']);
-
+var Snowball = require('snowball');
 var stemmer = new Snowball('English');
-
-stemmer.setCurrent('abbreviations');
-
-stemmer.stem();
-
-console.log(stemmer.getCurrent());
+//stemmer.setCurrent('abbreviations');
+//stemmer.stem();
+//document.write((stemmer.getCurrent()));
 
 //Adding Functionality in display right and wrong
 
