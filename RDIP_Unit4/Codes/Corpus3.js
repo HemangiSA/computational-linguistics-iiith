@@ -32,7 +32,7 @@ function corpus3()
 	  document.getElementById("btn").style.display='block';
 	}
 
-//Add functionality of continue button and reduced words
+//Stemming words functions after algorithm
 
 function new3()
 {
@@ -42,7 +42,7 @@ function new3()
 	one.style.backgroundColor="green";
 	   var str = "<b>Right Answer!</b>";
        var result = str.fontcolor("green");
-       document.getElementById("p1").innerHTML = result;
+       //document.getElementById("p1").innerHTML = result;
 	  // change1();
  }
  else
@@ -50,7 +50,7 @@ function new3()
 	 one.style.backgroundColor="red";
 		 var str = "<br>Wrong Answer!</b>";
 		 var result = str.fontcolor("red");
-		 document.getElementById("p1").innerHTML = result;
+		 //document.getElementById("p1").innerHTML = result;
 	
 	 
  }

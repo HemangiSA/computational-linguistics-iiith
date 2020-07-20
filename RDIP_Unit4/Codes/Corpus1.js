@@ -34,7 +34,7 @@ function corpus1()
 	  document.getElementById("btn").style.display='block';
 	}
 
-//Add functionality of continue button and Reduced Word Algorithm
+//Stemming words functions after algorithm
 
 function new1()
 {
@@ -44,7 +44,7 @@ function new1()
 	one.style.backgroundColor="green";
 	   var str = "<b>Right Answer!</b>";
        var result = str.fontcolor("green");
-       document.getElementById("p1").innerHTML = result;
+    //   document.getElementById("p1").innerHTML = result;
 	  // change1();
  }
  else
@@ -52,11 +52,13 @@ function new1()
 	 one.style.backgroundColor="red";
 		 var str = "<br>Wrong Answer!</b>";
 		 var result = str.fontcolor("red");
-		 document.getElementById("p1").innerHTML = result;
+		// document.getElementById("p1").innerHTML = result;
 	
 	 
  }
  }
+
+//End of Algorithm
 
 //Algorithm for stemming algorithm
 
