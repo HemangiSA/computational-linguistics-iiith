@@ -31,6 +31,8 @@ var ten="पेड़ से पत्ते गिर गए।";
 
 //Functionalities related to selection options
 
+//Adding symbols tick and cross mark when answer is validated
+
 function one1()
 {
 	var a=document.getElementById("one");
