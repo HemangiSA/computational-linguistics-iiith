@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script async src="../Libraries/require.js"></script>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<link rel="stylesheet" href="Include.css">
+</head>
+</head>
+<body>
+<div class="container">
+		<select name="form" onchange="location=this.value" id="select1">
+			<option>----------------<b>Select Language</b>---------------</option>
+			<option value="english.html">English</option>
+			<option value="hindi.html">Hindi</option>
+		</select>
+		<br>
+		<br>
+		<br>
+		<select name="form1" onchange="location=this.value" id="select2">
+			<option value="null">----------------<b>Select a Sentence</b>---------------</option>
+			<option value="english1.html">The child liked the chocolate.</option>
+			<option value="english2.html">She was stopped by the bravest knight.</option>
+			<option value="english3.html">Mary baked a cake for his birthday</option>
+			<option value="english4.html">She decorated the cake carefully</option>
+			<option value="english5.html">Mary wore a dress with polka dots.</option>
+		</select>
+		<br>
+		<br>
+		<p><b><i>Select the POS for corresponding words</i></b></p>
+		<br>
+		<table border="2px">
+		<tr>
+			<th>Lexicon</th>
+			<th>POS</th>
+			<th>Result</th>
+			<th>Correct</th>
+		</tr>
+		<tr>
+			<td><b>Mary</b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="one"></td>
+			<td><input type="text" id="two"></td>
+		</tr>
+		<tr>
+			<td><b>baked</b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="three"></td>
+			<td><input type="text" id="four"></td>
+		</tr>
+		<tr>
+			<td><b>a</b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="five"></td>
+			<td><input type="text" id="six"></td>
+		</tr>
+		<tr>
+			<td><b>cake</b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="seven"></td>
+			<td><input type="text" id="eight"></td>
+		</tr>
+		<tr>
+			<td><b>for</b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="nine"></td>
+			<td><input type="text" id="ten"></td>
+		</tr>
+		<tr>
+			<td><b>his</b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="ele"></td>
+			<td><input type="text" id="twe"></td>
+		</tr>
+		<tr>
+			<td><b>birthday</b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="thi"></td>
+			<td><input type="text" id="for"></td>
+		</tr>
+		</table>
+		
+</div>
+</body>
+</html>

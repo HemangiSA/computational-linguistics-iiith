@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script async src="../Libraries/require.js"></script>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<link rel="stylesheet" href="Include.css">
+</head>
+</head>
+<body>
+<div class="container">
+		<select name="form" onchange="location=this.value" id="select1">
+			<option>----------------<b>Select Language</b>---------------</option>
+			<option value="english.html">English</option>
+			<option value="hindi.html">Hindi</option>
+		</select>
+		<br>
+		<br>
+		<br>
+		<select name="form1" onchange="location=this.value" id="select2">
+			<option value="null">----------------<b>Select a Sentence</b>---------------</option>
+			<option value="hindi1.html">राम ने सीता के लिए फल तोड़ा।</option>
+			<option value="hindi2.html">छोटे बच्चे पाठशाला जल्दी आयेंगे।</option>
+			<option value="hindi3.html">मेहनत का फल मीठा होता है।</option>
+			<option value="hindi4.html">वाह! वह खूबसूरत है।</option>
+			<option value="hindi5.html">पेड़ से पत्ते गिर गए।</option>
+		</select>
+		<br>
+		<br>
+		<p><b><i>Select the POS for corresponding words</i></b></p>
+		<br>
+		<table border="2px">
+		<tr>
+			<th>Lexicon</th>
+			<th>POS</th>
+			<th>Result</th>
+			<th>Correct</th>
+		</tr>
+		<tr>
+		 
+		
+			<td><b>वाह!</b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="one"></td>
+			<td><input type="text" id="two"></td>
+		</tr>
+		<tr>
+			<td><b>  वह  </b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="three"></td>
+			<td><input type="text" id="four"></td>
+		</tr>
+		<tr>
+			<td><b>खूबसूरत </b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="five"></td>
+			<td><input type="text" id="six"></td>
+		</tr>
+		<tr>
+			<td><b>है।</b></td>
+			<td><select name="form" onchange="location=this.value" id="select3">
+			<option id="n">Noun</option>
+			<option id="p">Pronoun</option>
+			<option id="v">Verb</option>
+			<option id="a">Adjective</option>
+			<option id="ad">Adverb</option>
+			<option id="d">determiner</option>
+			<option id="pr">preposition</option>
+			<option id="c">conjuction</option>
+			<option id="i">Interjective</option>
+			</select>
+			</td>
+			<td><input type="text" id="seven"></td>
+			<td><input type="text" id="eight"></td>
+		</tr>
+		</table>
+		
+</div>
+</body>
+</html>

@@ -48,13 +48,19 @@ table
 	margin-left:270px;
 	height:30px;
 }
+#txt1
+{
+	width:20px;
+}
 #id1
 {
 	background-color:white;
 }
 p
 {
-	background-color:#ffcfff;
+	color:blue;
+	margin-left:190px;
+	font-size:20px;
 }
 button[type="submit"]
 {
@@ -62,14 +68,15 @@ button[type="submit"]
 	height:25px;
 	margin-left:310px;
 }
+th
+{
+	padding:10px;
+	font-size:20px;
+	margin-right:300px;
+}
 div
 {
 	margin-left:170px;
-}
-th,td
-{
-	padding:20px;
-	margin:26px;
 }
 li
 {
