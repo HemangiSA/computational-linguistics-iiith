@@ -330,3 +330,203 @@ function h5()
 		
 	}
 }
+
+
+//Functionality of get answer button
+
+function get1()
+{
+	myFunction1();
+	var a=document.getElementById("two").value="determiner";
+	var b=document.getElementById("four").value="noun";
+	var c=document.getElementById("six").value="verb";
+	var d=document.getElementById("eight").value="determiner";
+	var e=document.getElementById("ten").value="noun";
+}
+
+function get2()
+{
+	myFunction();
+	var a=document.getElementById("two").value="pronoun";
+	var b=document.getElementById("four").value="verb";
+	var c=document.getElementById("six").value="verb";
+	var d=document.getElementById("eight").value="preposition";
+	var e=document.getElementById("ten").value="determiner";
+	var f=document.getElementById("twe").value="adjective";
+	var g=document.getElementById("for").value="noun";
+}
+
+function get3()
+{
+	myFunction();
+	var a=document.getElementById("two").value="noun";
+	var b=document.getElementById("four").value="verb";
+	var c=document.getElementById("six").value="determiner";
+	var d=document.getElementById("eight").value="noun";
+	var e=document.getElementById("ten").value="preposition";
+	var f=document.getElementById("twe").value="determiner";
+	var g=document.getElementById("for").value="noun";
+}
+
+function get4()
+{
+	myFunction1();
+	var a=document.getElementById("two").value="pronoun";
+	var b=document.getElementById("four").value="verb";
+	var c=document.getElementById("six").value="determiner";
+	var d=document.getElementById("eight").value="noun";
+	var e=document.getElementById("ten").value="adverb";
+}
+function get5()
+{
+	myFunction();
+	var a=document.getElementById("two").value="noun";
+	var b=document.getElementById("four").value="verb";
+	var c=document.getElementById("six").value="determiner";
+	var d=document.getElementById("eight").value="noun";
+	var e=document.getElementById("ten").value="preposition";
+	var f=document.getElementById("twe").value="noun";
+	var g=document.getElementById("for").value="noun";
+}
+function get6()
+{
+	myFunction();
+	var a=document.getElementById("two").value="noun";
+	var b=document.getElementById("four").value="postposition";
+	var c=document.getElementById("six").value="noun";
+	var d=document.getElementById("eight").value="postposition";
+	var e=document.getElementById("ten").value="postposition";
+	var f=document.getElementById("twe").value="noun";
+	var g=document.getElementById("for").value="verb";
+}
+function get7()
+{
+	myFunction1();
+	var a=document.getElementById("two").value="adjective";
+	var b=document.getElementById("four").value="noun";
+	var c=document.getElementById("six").value="noun";
+	var d=document.getElementById("eight").value="adverb";
+	var e=document.getElementById("ten").value="verb";
+}
+function get8()
+{
+	myFunction2();
+	var a=document.getElementById("two").value="noun";
+	var b=document.getElementById("four").value="postposition";
+	var c=document.getElementById("six").value="noun";
+	var d=document.getElementById("eight").value="adjective";
+	var e=document.getElementById("ten").value="verb";
+	var f=document.getElementById("twe").value="verb";
+}
+function get9()
+{
+	myFunction3();
+	var a=document.getElementById("two").value="interjective";
+	var b=document.getElementById("four").value="pronoun";
+	var c=document.getElementById("six").value="adjective";
+	var d=document.getElementById("eight").value="verb";
+}
+function get10()
+{
+	myFunction1();
+	var a=document.getElementById("two").value="noun";
+	var b=document.getElementById("four").value="postposition";
+	var c=document.getElementById("six").value="noun";
+	var d=document.getElementById("eight").value="verb";
+	var e=document.getElementById("ten").value="verb";
+}
+
+//Hide and show get answer button
+
+function myFunction() 
+{
+	var a=document.getElementById("two");
+	var b=document.getElementById("four");
+	var c=document.getElementById("six");
+	var d=document.getElementById("eight");
+	var e=document.getElementById("ten");
+	var f=document.getElementById("twe");
+	var g=document.getElementById("for");
+  if (a.style.display === "none" && b.style.display==="none" && c.style.display==="none" && d.style.display==="none" && e.style.display==="none" && f.style.display==="none" && g.style.display==="none") {
+    a.style.display = "block";
+	b.style.display = "block";
+	c.style.display = "block";
+	d.style.display = "block";
+	e.style.display = "block";
+	f.style.display = "block";
+	g.style.display = "block";
+  } else {
+    a.style.display = "none";
+	 b.style.display = "none";
+	  c.style.display = "none";
+	   d.style.display = "none";
+	    e.style.display = "none";
+		f.style.display = "none";
+	g.style.display = "none";
+  }
+}
+
+function myFunction1()
+{
+	var a=document.getElementById("two");
+	var b=document.getElementById("four");
+	var c=document.getElementById("six");
+	var d=document.getElementById("eight");
+	var e=document.getElementById("ten");
+	if (a.style.display === "none" && b.style.display==="none" && c.style.display==="none" && d.style.display==="none" && e.style.display==="none") {
+    a.style.display = "block";
+	b.style.display = "block";
+	c.style.display = "block";
+	d.style.display = "block";
+	e.style.display = "block";
+  } else {
+    a.style.display = "none";
+	 b.style.display = "none";
+	  c.style.display = "none";
+	   d.style.display = "none";
+	    e.style.display = "none";
+  }
+}
+
+function myFunction2()
+{
+	var a=document.getElementById("two");
+	var b=document.getElementById("four");
+	var c=document.getElementById("six");
+	var d=document.getElementById("eight");
+	var e=document.getElementById("ten");
+	var f=document.getElementById("twe");
+  if (a.style.display === "none" && b.style.display==="none" && c.style.display==="none" && d.style.display==="none" && e.style.display==="none" && f.style.display==="none") {
+    a.style.display = "block";
+	b.style.display = "block";
+	c.style.display = "block";
+	d.style.display = "block";
+	e.style.display = "block";
+	f.style.display = "block";
+  } else {
+    a.style.display = "none";
+	 b.style.display = "none";
+	  c.style.display = "none";
+	   d.style.display = "none";
+	    e.style.display = "none";
+		f.style.display = "none";
+  }
+}
+ function myFunction3()
+ {
+	 var a=document.getElementById("two");
+	var b=document.getElementById("four");
+	var c=document.getElementById("six");
+	var d=document.getElementById("eight");
+  if (a.style.display === "none" && b.style.display==="none" && c.style.display==="none" && d.style.display==="none") {
+    a.style.display = "block";
+	b.style.display = "block";
+	c.style.display = "block";
+	d.style.display = "block";
+  } else {
+    a.style.display = "none";
+	 b.style.display = "none";
+	  c.style.display = "none";
+	   d.style.display = "none";
+  }
+}
