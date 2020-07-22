@@ -42,6 +42,8 @@ function one1()
 	var e=document.getElementById("nine");
 	if(a.value==="determiner" && b.value==="noun" && c.value==="verb" && d.value==="determiner" && e.value==="noun")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
@@ -69,6 +71,8 @@ function two2()
 	var g=document.getElementById("thi");
 	if(a.value==="pronoun" && b.value==="verb" && c.value==="verb" && d.value==="preposition" && e.value==="determiner" && f.value==="adjective" && g.value==="noun")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
@@ -100,6 +104,8 @@ function three3()
 	var g=document.getElementById("thi");
 	if(a.value==="noun" && b.value==="verb" && c.value==="determiner" && d.value==="noun" && e.value==="preposition" && f.value==="determiner" && g.value==="noun")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
@@ -129,6 +135,8 @@ function four4()
 	var e=document.getElementById("nine");
 	if(a.value==="pronoun" && b.value==="verb" && c.value==="determiner" && d.value==="noun" && e.value==="adverb")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
@@ -156,6 +164,8 @@ function five5()
 	var g=document.getElementById("thi");
 	if(a.value==="noun" && b.value==="verb" && c.value==="determiner" && d.value==="noun" && e.value==="preposition" && f.value==="noun" && g.value==="noun")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
@@ -187,6 +197,8 @@ function h1()
 	var g=document.getElementById("thi");
 	if(a.value==="noun" && b.value==="postposition" && c.value==="noun" && d.value==="postposition" && e.value==="postposition" && f.value==="noun" && g.value==="verb")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
@@ -216,6 +228,8 @@ function h2()
 	var e=document.getElementById("nine");
 	if(a.value==="adjective" && b.value==="noun" && c.value==="noun" && d.value==="adverb" && e.value==="verb")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
@@ -242,6 +256,8 @@ function h3()
 	var f=document.getElementById("ele");
 	if(a.value==="noun" && b.value==="postposition" && c.value==="noun" && d.value==="adjective" && e.value==="verb" && f.value==="verb")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
@@ -268,6 +284,8 @@ function h4()
 	var d=document.getElementById("seven");
 	if(a.value==="interjective" && b.value==="pronoun" && c.value==="adjective" && d.value==="verb")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
@@ -293,6 +311,8 @@ function h5()
 	var e=document.getElementById("nine");
 	if(a.value==="noun" && b.value==="postposition" && c.value==="noun" && d.value==="verb" && e.value==="verb")
 	{
+		//display in column 3
+		
 		a.style.backgroundColor = "green";
 		b.style.backgroundColor = "green";
 		c.style.backgroundColor = "green";
