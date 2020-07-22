@@ -437,6 +437,7 @@ function get10()
 }
 
 //Hide and show get answer button
+//Adding Extra Functionalities
 
 function myFunction() 
 {
